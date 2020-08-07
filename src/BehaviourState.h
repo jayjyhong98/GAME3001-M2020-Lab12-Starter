@@ -2,6 +2,7 @@
 #ifndef __BEHAVIOUR_STATE__
 #define __BEHAVIOUR_STATE__
 
+//build BehaviourState
 enum BehaviourState
 {
 	FLIGHT,

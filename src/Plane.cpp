@@ -46,6 +46,7 @@ void Plane::draw()
 
 void Plane::update()
 {
+	// add check Current Conditions
 	m_checkCurrentConditions();
 	m_stateMachine.Update(this);
 }

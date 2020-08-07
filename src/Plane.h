@@ -27,6 +27,7 @@ private:
 
 	void m_checkCurrentConditions();
 
+	// add status
 	bool m_playerDetected;
 	bool m_haveLOS;
 	bool m_withinMeleeRange;

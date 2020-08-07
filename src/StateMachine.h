@@ -5,6 +5,7 @@
 #include "BehaviourState.h"
 #include "DisplayObject.h"
 
+//build StateMachine
 class StateMachine
 {
 //friend DisplayObject;

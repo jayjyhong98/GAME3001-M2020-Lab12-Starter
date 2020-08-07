@@ -7,6 +7,7 @@ StateMachine::StateMachine(): m_currentOuterState(FIGHT), m_currentInnerState(PA
 StateMachine::~StateMachine()
 = default;
 
+//make State Machine
 void StateMachine::Update(DisplayObject* object)
 {
 	switch (m_currentOuterState)
